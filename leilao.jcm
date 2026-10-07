@@ -1,0 +1,29 @@
+/*
+    Leilão Japonês, Japanese Auction, Versão AE
+    -------------------------------------------
+    Agentes em Jason e ambiente instrumentado com um artefato CArtAgO,
+    a máquina de leilão, que guarda o estado e aplica as regras.
+
+    Executar com:  ./gradlew -q --console=plain
+             ou:  jacamo leilao.jcm
+*/
+
+mas leilao {
+
+    agent leiloeiro {
+        focus: w.maquina
+    }
+
+    agent licitante {
+        instances: 3
+        focus: w.maquina
+    }
+
+    agent cauteloso {
+        focus: w.maquina
+    }
+
+    workspace w {
+        artifact maquina: leilao.MaquinaLeilao("quadro a oleo")
+    }
+}

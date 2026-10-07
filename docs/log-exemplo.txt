@@ -1,0 +1,57 @@
+Runtime Services (RTS) is running at 127.0.0.1:56416
+Agent mind inspector is running at http://127.0.0.1:3272
+CArtAgO Http Server running on http://127.0.0.1:3273
+[Cartago] Workspace w created.
+[Cartago] artifact maquina: leilao.MaquinaLeilao("quadro a oleo") at w created.
+[licitante1] Valor maximo: 198 | desisto acima de 198
+[cauteloso] Valor maximo: 112 | desisto acima de 89
+[licitante2] Valor maximo: 135 | desisto acima de 135
+[licitante3] Valor maximo: 110 | desisto acima de 110
+[leiloeiro] Rodada 1 | preco 50 | ativos: [cauteloso,licitante1,licitante2,licitante3]
+[cauteloso] Preco 50, continuo.
+[licitante3] Preco 50, continuo.
+[licitante2] Preco 50, continuo.
+[licitante1] Preco 50, continuo.
+[leiloeiro] Rodada 2 | preco 60 | ativos: [cauteloso,licitante3,licitante2,licitante1]
+[licitante2] Preco 60, continuo.
+[licitante1] Preco 60, continuo.
+[licitante3] Preco 60, continuo.
+[cauteloso] Preco 60, continuo.
+[leiloeiro] Rodada 3 | preco 70 | ativos: [licitante2,licitante1,licitante3,cauteloso]
+[licitante3] Preco 70, continuo.
+[cauteloso] Preco 70, continuo.
+[licitante2] Preco 70, continuo.
+[licitante1] Preco 70, continuo.
+[leiloeiro] Rodada 4 | preco 80 | ativos: [licitante3,cauteloso,licitante2,licitante1]
+[licitante2] Preco 80, continuo.
+[cauteloso] Preco 80, continuo.
+[licitante3] Preco 80, continuo.
+[licitante1] Preco 80, continuo.
+[leiloeiro] Rodada 5 | preco 90 | ativos: [licitante2,cauteloso,licitante3,licitante1]
+[cauteloso] Preco 90, desisto.
+[licitante2] Preco 90, continuo.
+[licitante3] Preco 90, continuo.
+[licitante1] Preco 90, continuo.
+[leiloeiro] Rodada 6 | preco 100 | ativos: [licitante2,licitante3,licitante1]
+[licitante1] Preco 100, continuo.
+[licitante2] Preco 100, continuo.
+[licitante3] Preco 100, continuo.
+[leiloeiro] Rodada 7 | preco 110 | ativos: [licitante2,licitante1,licitante3]
+[licitante1] Preco 110, continuo.
+[licitante2] Preco 110, continuo.
+[licitante3] Preco 110, continuo.
+[leiloeiro] Rodada 8 | preco 120 | ativos: [licitante1,licitante2,licitante3]
+[licitante2] Preco 120, continuo.
+[licitante1] Preco 120, continuo.
+[licitante3] Preco 120, desisto.
+[leiloeiro] Rodada 9 | preco 130 | ativos: [licitante2,licitante1]
+[licitante1] Preco 130, continuo.
+[licitante2] Preco 130, continuo.
+[leiloeiro] Rodada 10 | preco 140 | ativos: [licitante1,licitante2]
+[licitante1] Preco 140, continuo.
+[licitante2] Preco 140, desisto.
+[leiloeiro] VENCEDOR: licitante1 paga 140 por 'quadro a oleo'
+[licitante2] Perdi para licitante1.
+[cauteloso] Perdi para licitante1.
+[licitante1] Venci 'quadro a oleo' por 140!
+[licitante3] Perdi para licitante1.
